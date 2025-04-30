@@ -1,4 +1,35 @@
-Banco Bando Digital uma API para Banco Digital com os seguintes endpoints:
+📌 Banco Digital
+Esse projeto é uma API REST de um banco Digital, desenvolvido em Java. O objetivo é aplicar conceitos de orientação a objetos, frameworks e persistência de dados.
+
+🚀 Funcionalidades
+✅ Cadastro e gerenciamento de clientes
+✅ Criação de Contas - corrente e poupança
+✅ Emissão cartões - credito e debito
+✅ Realização de pagamentos e simulação de saldo
+✅ Tratamento de exceções
+✅ Arquitetura baseada em camadas (Controller, Service, Repository, etc.)
+
+🛠️ Tecnologias
+Java
+Spring Boot
+Spring Data JPA
+H2 Database 
+Postman
+
+✅Funcionalidades:
+
+📂 Estrutura do Projeto
+banco-digital
+┣ 📂 src
+┃ ┣ 📂 controller    # Endpoints da API 
+┃ ┣ 📂 dto           # Objetos de transferência de dados 
+┃ ┣ 📂 entity        # Entidades JPA que representam as tabelas do banco 
+┃ ┣ 📂 repository    # Interfaces para acesso ao banco de dados com Spring Data JPA
+┃ ┣ 📂 service       # Regras de negócio e lógica de aplicação
+┃ ┣ 📂 emums         # Enums utilizados no projeto
+
+┣ 📄 README.md       # Documentação do projeto
+┣ 📄 pom.xml         # Arquivo de build com dependências
 
 ### Endpoints da API Banco Digital
 #### Cliente  
